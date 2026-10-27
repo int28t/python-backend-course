@@ -3,7 +3,7 @@ from models.user import User
 from utils.filter_comments_by_author import filter_comments_by_author
 
 
-def test_filter_comments_by_author():
+def test_filter_comments_by_author() -> None:
     author1 = User('a')
     author2 = User('b')
     comments = [

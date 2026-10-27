@@ -2,7 +2,7 @@ from models.product import Product
 from utils.select_products_by_category import select_products_by_category
 
 
-def test_select_products_by_category():
+def test_select_products_by_category() -> None:
     category1 = 'c1'
     category2 = 'c2'
     products = [

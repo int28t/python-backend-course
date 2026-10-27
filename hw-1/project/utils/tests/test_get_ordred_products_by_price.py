@@ -2,7 +2,7 @@ from models.product import Product
 from utils.get_ordered_products_by_price import get_ordered_products_by_price
 
 
-def test_get_ordered_products_by_price():
+def test_get_ordered_products_by_price() -> None:
     products = [
         Product('p1', 'c1', 2),
         Product('p2', 'c2', 1),

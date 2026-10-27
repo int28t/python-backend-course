@@ -4,7 +4,7 @@ from models.comment import Comment
 from utils.get_ordered_comments_by_likes import get_ordered_comments_by_likes
 
 
-def test_get_ordered_comments_by_likes():
+def test_get_ordered_comments_by_likes() -> None:
     comments = [
         Comment(uuid.uuid4(), 't1'),
         Comment(uuid.uuid4(), 't2'),

@@ -2,7 +2,7 @@ from models.product import Product
 from utils.extract_prices import extract_prices
 
 
-def test_extract_prices():
+def test_extract_prices() -> None:
     products = [
         Product('a', 'x', 1),
         Product('b', 'x', 3),

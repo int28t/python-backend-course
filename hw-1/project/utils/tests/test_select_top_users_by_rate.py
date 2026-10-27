@@ -2,7 +2,7 @@ from models.user import User
 from utils.select_top_users_by_rate import select_top_users_by_rate
 
 
-def test_select_top_users_by_rate():
+def test_select_top_users_by_rate() -> None:
     users = [
         User('a'),
         User('b'),
